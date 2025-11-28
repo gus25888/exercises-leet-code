@@ -7,8 +7,9 @@
 
 // Constraints:
 
-// 1 <= nums.length <= 105
-// nums[i] is either 0 or 1.
+// 1 <= nums.length <= 10^4
+// -10^4 <= nums[i] <= 10^4
+// nums is sorted in non-decreasing order.
 
 function sortedSquares(nums: number[]): number[] {
     const numsSquared = nums.map((num) => num * num);
